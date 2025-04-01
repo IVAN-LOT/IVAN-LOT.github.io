@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+/* Header */
+header h1{
+    font-family: "Mongolian Baiti", sans-serif;
+}
+body h2{
+    left: 50px ;
+}
+
+header {
+    background-image: url("../images/camer.jpg");
+    color: black;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* page: ACCUEIL */
+
+#about{
+    border-radius: 20px;
+    background: darkgrey;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border: 3px solid black;
+    top: auto;
+    position: relative;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* page: GALERIE */
+
+.section {
+    padding: 20px;
+    margin: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+section#photos img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+#photos img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition-duration: 1s;
+}
+
+/*page: VOYAGE */
+
+.hero {
+    background-image: url('https://cdn.wallpapersafari.com/63/78/f8mVC7.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    font-size: 2em;
+}
+
+.container {
+    padding: 2em;
+}
+
+.destination {
+    display: flex;
+    margin-bottom: 2em;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.destination img {
+    width: 40%;
+    border-radius: 8px 0 0 8px;
+}
+
+.destination .info {
+    padding: 1em;
+}
+
+.destination h3 {
+    margin: 0 0 0.5em;
+}
+
+
+
+/* page: CONTACT */
+
+.ig{
+    float: right;
+    position: relative;
+    top: auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+form button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+form button:hover {
+    background: #45a049;
+}
+/* Footer */
+footer {
+    position: relative;
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+
+}
+
+/* format d'écran tablette*/
+
+@media screen and (min-width: 640px) and (max-width: 960px) {
+
+
+    
+}
+
+
+/* format d'écran mobile */
+
+@media screen and (max-width:640px) {
+    
+}
